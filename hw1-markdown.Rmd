@@ -48,9 +48,9 @@ airline_delays
 
 How did departures for Austin-Bergstrom International Airport vary in 2008? According to this chart, across all airlines, the greatest average departure delays occur in the morning, with Southwest delays being the most severe.  If you're flying United, you want to avoid early afternoon departures, as there is a huge spike in average delays in the hours between 11:00 am and 4:00 pm. 
 
-##2) Wrangling the Billboard Top 100
+## 2) Wrangling the Billboard Top 100
 
-###Part A:
+### Part A:
 
 ```{r Top 10 Songs Since 1958 (2A), echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 billboard1 = billboard %>% 
@@ -67,7 +67,7 @@ knitr::kable(top10,col.names = c("Performers", "Songs", "Total # of Weeks on Bil
              caption = "Top 10 Most Popular Songs since 1958")
 ```
 
-###Part B:
+### Part B:
 
 ```{r Musical Diversity (2B), echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 billboardfilter = billboard %>%
@@ -83,7 +83,7 @@ ggplot(data = billboardfilter, aes(x = year, y = n)) +
 
 Song diversity on the Billboard Top 100 peaked in the mid-1960's, then steadily dropped until it hit a low in the early 2000's.  Since the early 2000's, however, song diversity has increased sharply, with almost-record high numbers for 2020.
 
-###Part C:
+### Part C:
 
 ```{r 19 Artists that are Built Different (2C), echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 ten_week_hit = billboard %>% 
@@ -103,9 +103,9 @@ ggplot(ten_week_hit) +
 
 As shown above, there are 19 artists who had at least 30 songs on Billboard's Top 100 for 10 weeks or more. We can see that Elton John dominates this category, with the most songs of this classification.
 
-##3) Wrangling the Olympics
+## 3) Wrangling the Olympics
 
-###Part A:
+### Part A:
 
 ```{r 95th Percentile for Female Competitors (3A), echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 height = olympics %>%
@@ -118,7 +118,7 @@ height
 
 Female competitors across all athletic events in the top 20 Olympic sports. The Women's Basketball team has the highest (and therefore tallest) percentiles among all female sports. The Women's Triple Jump has the lowest.
 
-###Part B:
+### Part B:
 
 ```{r Greatest variabilty in competitor heights among Womens events (3B), echo=FALSE, error=FALSE, message=FALSE, warning=FALSE}
 variation = olympics %>%
@@ -132,7 +132,7 @@ variation
 
 Rowing Women's Coxed Fours has the most variation in height among competitors, with a standard deviation of 10.9 cm.
 
-###Part C:
+### Part C:
 
 ```{r Average Age of Olympic Swimmers (3C), echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 average_age = olympics %>%
@@ -147,7 +147,7 @@ ggplot(data = average_age) +
 
 The average age of Olympic swimming medalists spiked in 1924, but dropped to an average age of about 20 for men and 17 for women until the 1980s, when there began a gradual increase in age for both sexes.
 
-##4.) K-nearest Neighbors
+## 4.) K-nearest Neighbors
 
 ```{r Preparation, echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 ###
