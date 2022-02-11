@@ -99,6 +99,7 @@ ggplot(ten_week_hit) +
   labs(title = "Number of Songs on Billboard's Top 100 For At Least 10 Weeks by Top Artists*", x = "Performer", y = "Number of Songs", caption = "*Data was filtered for artists who had at least 30 songs that appeared for at least 10 weeks.") +
   theme(legend.position = "none")
 ```
+
 #3) Wrangling the Olympics
 
 ##Part A:
@@ -170,8 +171,8 @@ sclass65 = sclass %>%
   filter(trim == "65 AMG")
 ```
 
-##Trim 350 analysis
-### Splitting the dataset and making predictions
+## Trim 350 Analysis
+### Making predictions
 
 ```{r Splitting Trim 350s for KNN, echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 # SPLITTING TRIM 350'S DATASET FOR KNN
@@ -230,6 +231,7 @@ Above are the RMSE outputs, in order, of arbitrarily selected values of K (2, 10
 sclass350_test %>% 
   head(10)
 ```
+
 This table shows our testing set with the predictions of each model associated with a  value of k.  For brevity we added only the first 10 observations. 
 
 ### Plotting RMSE vs K
@@ -280,7 +282,7 @@ p_test1 + geom_line(aes(x = mileage, y = koptimal_price_pred), color = "red") +
 
 ## Trim 65 AMG analysis
 
-### Splitting the data and making predictions
+### Making predictions
 
 ```{r Splitting the data and making predictions, echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 # SPLITTING TRIM 65 AMG'S DATASET FOR KNN
@@ -330,11 +332,14 @@ sclass65_test = sclass65_test %>%
 
 rmse(knn65_200, sclass65_test)
 ```
+
 Above are the predicted RMSE values for different values of K (2, 10, 25, 100, and 200 respectively).
+
 ```{r Class65 Testing Data, echo=FALSE, error=FALSE, message=FALSE, warning =FALSE}
 sclass65_test %>%
   head(10)
 ```
+
 This table shows our testing set with the predictions of each model associated with a value of k.  For brevity we added only the first 10 observations.
 
 ### Plotting RMSE vs K
@@ -356,7 +361,9 @@ ggplot(rmse_k2) +
   labs(title = "Trim 65 AMG's RMSE Based on the Value of K", y = "RMSE", x = "Number of K-Nearest Neighbors")
 ```
 
+
 ### Finding Optimal K and Plotting the Model
+
 ```{r Finding Optimal K and Plotting the Model, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE}
 # FINDING THE OPTIMAL VALUE OF k AND STORING IT
 
@@ -382,6 +389,7 @@ p_test2 = ggplot(sclass65_test) +
 p_test2 + geom_line(aes(x = mileage, y = koptimal_price_pred), color = "red") +
   labs(title = "How Trim 65 AMG's price depends on Mileage", x = "Mileage", y = "Price")
 ```
+
 ## Discussion
 
 It would appear that, with repeated trials, Trim 350's optimal value of k is generally higher.  This is due to Trim 350's larger sample size. Generally, higher values of k will reduce the variation of our model but at the cost of greater bias.  With larger sample sizes, we can afford to use larger values of k as these values will have a lesser effect on the model's bias.
