@@ -1,5 +1,5 @@
-1) Data visualization: flights at ABIA
---------------------------------------
+1.) Data visualization: flights at ABIA
+---------------------------------------
 
 ![](hw1-markdown_files/figure-markdown_strict/Airline%20Delays%20(1)-1.png)
 
@@ -10,8 +10,8 @@ most severe. If you’re flying United, you want to avoid early afternoon
 departures, as there is a huge spike in average delays in the hours
 between 11:00 am and 4:00 pm.
 
-2) Wrangling the Billboard Top 100
-----------------------------------
+2.) Wrangling the Billboard Top 100
+-----------------------------------
 
 ### Part A:
 
@@ -95,8 +95,8 @@ As shown above, there are 19 artists who had at least 30 songs on
 Billboard’s Top 100 for 10 weeks or more. We can see that Elton John
 dominates this category, with the most songs of this classification.
 
-3) Wrangling the Olympics
--------------------------
+3.) Wrangling the Olympics
+--------------------------
 
 ### Part A:
 
@@ -145,15 +145,15 @@ dropped to an average age of about 20 for men and 17 for women until the
 
 #### Making predictions
 
-    ## [1] 10930.74
+    ## [1] 12207.97
 
-    ## [1] 10110.47
+    ## [1] 11497.31
 
-    ## [1] 10593.07
+    ## [1] 11784.88
 
-    ## [1] 12376.2
+    ## [1] 12557.48
 
-    ## [1] 22515.19
+    ## [1] 21098.94
 
 Above are the RMSE outputs, in order, of arbitrarily selected values of
 K (2, 10, 25, 100, and 300 respectively).
@@ -185,103 +185,103 @@ K (2, 10, 25, 100, and 300 respectively).
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">350</td>
-<td style="text-align: right;">14</td>
-<td style="text-align: right;">74900</td>
-<td style="text-align: right;">86822.5</td>
-<td style="text-align: right;">91959.7</td>
-<td style="text-align: right;">79980.48</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">106010</td>
+<td style="text-align: right;">87108.5</td>
+<td style="text-align: right;">89769.2</td>
+<td style="text-align: right;">82319.80</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">350</td>
-<td style="text-align: right;">17</td>
-<td style="text-align: right;">102110</td>
-<td style="text-align: right;">96487.5</td>
-<td style="text-align: right;">91959.7</td>
-<td style="text-align: right;">79980.48</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">2325</td>
+<td style="text-align: right;">74899</td>
+<td style="text-align: right;">72947.5</td>
+<td style="text-align: right;">72304.3</td>
+<td style="text-align: right;">80004.44</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">350</td>
-<td style="text-align: right;">39</td>
-<td style="text-align: right;">81900</td>
-<td style="text-align: right;">98520.0</td>
-<td style="text-align: right;">91959.7</td>
-<td style="text-align: right;">79980.48</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">2747</td>
+<td style="text-align: right;">67995</td>
+<td style="text-align: right;">68495.0</td>
+<td style="text-align: right;">70380.1</td>
+<td style="text-align: right;">78417.92</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">350</td>
-<td style="text-align: right;">100</td>
-<td style="text-align: right;">94230</td>
-<td style="text-align: right;">87402.5</td>
-<td style="text-align: right;">91959.7</td>
-<td style="text-align: right;">79980.48</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">2951</td>
+<td style="text-align: right;">69995</td>
+<td style="text-align: right;">68991.0</td>
+<td style="text-align: right;">69870.5</td>
+<td style="text-align: right;">76643.60</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">350</td>
-<td style="text-align: right;">851</td>
-<td style="text-align: right;">94230</td>
-<td style="text-align: right;">84112.5</td>
-<td style="text-align: right;">90537.5</td>
-<td style="text-align: right;">79980.48</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">3524</td>
+<td style="text-align: right;">70900</td>
+<td style="text-align: right;">72441.5</td>
+<td style="text-align: right;">70162.0</td>
+<td style="text-align: right;">75310.20</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">350</td>
-<td style="text-align: right;">2384</td>
-<td style="text-align: right;">75900</td>
-<td style="text-align: right;">72447.0</td>
-<td style="text-align: right;">70180.7</td>
-<td style="text-align: right;">78298.85</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">350</td>
 <td style="text-align: right;">4978</td>
 <td style="text-align: right;">69990</td>
-<td style="text-align: right;">72943.0</td>
-<td style="text-align: right;">71836.1</td>
-<td style="text-align: right;">69518.44</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">350</td>
-<td style="text-align: right;">5508</td>
-<td style="text-align: right;">81991</td>
-<td style="text-align: right;">75943.0</td>
-<td style="text-align: right;">71456.7</td>
-<td style="text-align: right;">69521.92</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">66991.0</td>
+<td style="text-align: right;">72245.2</td>
+<td style="text-align: right;">73184.24</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">350</td>
-<td style="text-align: right;">6538</td>
-<td style="text-align: right;">74895</td>
-<td style="text-align: right;">70995.5</td>
-<td style="text-align: right;">68255.7</td>
-<td style="text-align: right;">70339.92</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">5404</td>
+<td style="text-align: right;">81895</td>
+<td style="text-align: right;">75991.0</td>
+<td style="text-align: right;">72946.4</td>
+<td style="text-align: right;">73551.44</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">350</td>
-<td style="text-align: right;">9099</td>
-<td style="text-align: right;">97184</td>
-<td style="text-align: right;">80702.5</td>
-<td style="text-align: right;">69915.3</td>
-<td style="text-align: right;">68277.80</td>
-<td style="text-align: right;">66661.33</td>
-<td style="text-align: right;">50921.84</td>
+<td style="text-align: right;">6655</td>
+<td style="text-align: right;">59991</td>
+<td style="text-align: right;">78447.5</td>
+<td style="text-align: right;">71864.0</td>
+<td style="text-align: right;">71735.56</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">350</td>
+<td style="text-align: right;">7116</td>
+<td style="text-align: right;">69998</td>
+<td style="text-align: right;">72450.0</td>
+<td style="text-align: right;">71864.0</td>
+<td style="text-align: right;">71171.48</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">350</td>
+<td style="text-align: right;">7342</td>
+<td style="text-align: right;">53900</td>
+<td style="text-align: right;">72450.0</td>
+<td style="text-align: right;">75805.9</td>
+<td style="text-align: right;">71011.48</td>
+<td style="text-align: right;">67296.21</td>
+<td style="text-align: right;">50788.05</td>
 </tr>
 </tbody>
 </table>
@@ -296,7 +296,7 @@ observations.
 
 #### Finding Optimal K and Plotting the Model
 
-    ## [1] 8
+    ## [1] 4
 
 ![](hw1-markdown_files/figure-markdown_strict/Finding%20Optimal%20K%20and%20Plotting%20the%20Model%20-1.png)
 
@@ -304,15 +304,15 @@ observations.
 
 #### Making predictions
 
-    ## [1] 28572.77
+    ## [1] 26014.64
 
-    ## [1] 24016.11
+    ## [1] 28139.07
 
-    ## [1] 24542.23
+    ## [1] 27966.32
 
-    ## [1] 35880.53
+    ## [1] 37749.66
 
-    ## [1] 74000.82
+    ## [1] 75474.28
 
 Above are the predicted RMSE values for different values of K (2, 10,
 25, 100, and 200 respectively).
@@ -344,103 +344,103 @@ Above are the predicted RMSE values for different values of K (2, 10,
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">65 AMG</td>
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">226710</td>
-<td style="text-align: right;">225073.6</td>
-<td style="text-align: right;">226096.8</td>
-<td style="text-align: right;">227219.3</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">224625</td>
+<td style="text-align: right;">225667.5</td>
+<td style="text-align: right;">225693.5</td>
+<td style="text-align: right;">228186.8</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">65 AMG</td>
 <td style="text-align: right;">5</td>
-<td style="text-align: right;">230685</td>
-<td style="text-align: right;">225253.0</td>
-<td style="text-align: right;">227153.5</td>
-<td style="text-align: right;">227219.3</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">228825</td>
+<td style="text-align: right;">225458.3</td>
+<td style="text-align: right;">226603.5</td>
+<td style="text-align: right;">228186.8</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">65 AMG</td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">224625</td>
-<td style="text-align: right;">225253.0</td>
-<td style="text-align: right;">227153.5</td>
-<td style="text-align: right;">227219.3</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">224975</td>
+<td style="text-align: right;">228858.3</td>
+<td style="text-align: right;">227874.0</td>
+<td style="text-align: right;">228290.4</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">65 AMG</td>
 <td style="text-align: right;">7</td>
-<td style="text-align: right;">230860</td>
-<td style="text-align: right;">229090.8</td>
-<td style="text-align: right;">228416.4</td>
-<td style="text-align: right;">228102.8</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">226620</td>
+<td style="text-align: right;">229797.5</td>
+<td style="text-align: right;">229516.2</td>
+<td style="text-align: right;">228401.5</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">65 AMG</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">228875</td>
-<td style="text-align: right;">229253.6</td>
-<td style="text-align: right;">229253.6</td>
-<td style="text-align: right;">228806.8</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">226965</td>
+<td style="text-align: right;">229611.7</td>
+<td style="text-align: right;">229408.5</td>
+<td style="text-align: right;">229145.8</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">65 AMG</td>
-<td style="text-align: right;">10</td>
-<td style="text-align: right;">226465</td>
-<td style="text-align: right;">229253.6</td>
-<td style="text-align: right;">229253.6</td>
-<td style="text-align: right;">228806.8</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">224351</td>
+<td style="text-align: right;">229611.7</td>
+<td style="text-align: right;">229408.5</td>
+<td style="text-align: right;">229145.8</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">65 AMG</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">226625</td>
+<td style="text-align: right;">228966.5</td>
+<td style="text-align: right;">228966.5</td>
+<td style="text-align: right;">229414.4</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">65 AMG</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">225525</td>
+<td style="text-align: right;">230743.8</td>
+<td style="text-align: right;">228987.4</td>
+<td style="text-align: right;">229137.9</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">65 AMG</td>
 <td style="text-align: right;">11</td>
-<td style="text-align: right;">225975</td>
-<td style="text-align: right;">229798.0</td>
-<td style="text-align: right;">229249.2</td>
-<td style="text-align: right;">228806.8</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">226465</td>
+<td style="text-align: right;">230743.8</td>
+<td style="text-align: right;">228987.4</td>
+<td style="text-align: right;">229137.9</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">65 AMG</td>
 <td style="text-align: right;">12</td>
-<td style="text-align: right;">227685</td>
-<td style="text-align: right;">228318.3</td>
-<td style="text-align: right;">229249.2</td>
-<td style="text-align: right;">229160.2</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">65 AMG</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">228465</td>
-<td style="text-align: right;">228318.3</td>
-<td style="text-align: right;">229249.2</td>
-<td style="text-align: right;">229160.2</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">65 AMG</td>
-<td style="text-align: right;">13</td>
-<td style="text-align: right;">235475</td>
-<td style="text-align: right;">228318.3</td>
-<td style="text-align: right;">229633.3</td>
-<td style="text-align: right;">229501.3</td>
-<td style="text-align: right;">201851.9</td>
-<td style="text-align: right;">133449.9</td>
+<td style="text-align: right;">232475</td>
+<td style="text-align: right;">227157.5</td>
+<td style="text-align: right;">229356.0</td>
+<td style="text-align: right;">228998.1</td>
+<td style="text-align: right;">194877.1</td>
+<td style="text-align: right;">127029</td>
 </tr>
 </tbody>
 </table>
@@ -455,7 +455,7 @@ observations.
 
 #### Finding Optimal K and Plotting the Model
 
-    ## [1] 4
+    ## [1] 2
 
 ![](hw1-markdown_files/figure-markdown_strict/Finding%20Optimal%20K%20and%20Plotting%20the%20Model-1.png)
 
